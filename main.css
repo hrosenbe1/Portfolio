@@ -1,0 +1,184 @@
+header {
+  background-color: rgba(56, 56, 56, 0.0);
+  border-bottom-style: solid;
+  border-bottom-width: 7px;
+  border-bottom-color: black;
+  border-radius: 0px;
+  max-height: 320px;
+}
+
+.HPic {
+  margin: -55px 0px -4px 0px;
+  max-height: 400px;
+  max-width: 500px;
+  border-bottom-right-radius: 0px;
+  display: block;
+  float: right;
+}
+
+.Ticons {
+  max-width: 80px;
+  max-height: 80px;
+  padding-left: 20px;
+}
+
+.Ficons {
+  max-width: 80px;
+  max-height: 80px;
+  padding-left: 20px;
+}
+
+.Licons {
+  max-width: 80px;
+  max-height: 80px;
+  padding-left: 20px;
+}
+
+.Eicon {
+  max-width: 80px;
+  max-height: 80px;
+  padding-left: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background: no-repeat center center fixed;
+  background-image: url(http://pre06.deviantart.net/ee62/th/pre/f/2012/340/a/2/light_hex_texture_by_fantomkilla-d5n8ut9.jpg);
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-attachment: fixed;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  background-image: url(http://pre06.deviantart.net/ee62/th/pre/f/2012/340/a/2/light_hex_texture_by_fantomkilla-d5n8ut9.jpg);
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
+.border {
+  border-bottom-width: 100px;
+  border-bottom-color: background-color: rgba(56, 56, 56, 0.7);
+
+}
+
+#contact {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  height: 250px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Cabin;
+}
+
+#skills {
+  height: 250px;
+  background-color: #777777;
+  color: white;
+}
+
+#row {
+  display: block;
+}
+
+.title {
+  text-align: center;
+  font-family: Cabin;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 45px;
+}
+
+#projects {
+  height: 900px;
+  background-color: #444444;
+  color: white;
+}
+
+.project1 {
+  height: 200px;
+  width: 400px;
+  box-shadow: 5px 5px 10px black;
+  margin-top: 50px;
+  margin-left: 170px;
+  border-radius: 10px;
+}
+
+.p1info {
+  width: 500px;
+  float: right;
+  margin-right: 120px;
+  margin-top: 100px;
+  font-size: 18px;
+  font-family: Cabin;
+}
+
+.project2 {
+  height: 200px;
+  width: 400px;
+  box-shadow: 5px 5px 10px black;
+  margin-top: 55px;
+  margin-left: 170px;
+  border-radius: 10px;
+}
+
+.p2info {
+  width: 500px;
+  float: right;
+  margin-right: 120px;
+  margin-top: 73px;
+  font-size: 18px;
+  font-family: Cabin;
+}
+
+.project3 {
+  height: 200px;
+  width: 400px;
+  box-shadow: 5px 5px 10px black;
+  margin-top: 55px;
+  margin-left: 170px;
+  border-radius: 10px;
+}
+
+.p3info {
+  width: 500px;
+  float: right;
+  margin-right: 120px;
+  margin-top: -160px;
+  font-size: 18px;
+  font-family: Cabin;
+}
+
+.nav {
+  width: 100px;
+  display: block;
+  float: left;
+  margin-top: 25px;
+  position: fixed;
+}
+
+.nav > ul> li> a {
+  text-decoration: none;
+  color: black;
+  font-family: Cabin;
+  font-size: 20px;
+}
+
+.nav >ul >li {
+  height: 20px;
+  width: 75px;
+  background-color: #DDDDDD;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px;
+}

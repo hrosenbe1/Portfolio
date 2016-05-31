@@ -1,9 +1,69 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title></title>
+    <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Heather Rosenberg</title>
 </head>
+<header style="height: 320px;">
+  <div class="nav">
+          <ul>
+            <li>
+                <a href="#profile">Profile</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+      </div>
+    <div>
+      <img src="HPortPic4.png" class="HPic" alt="Portfolio Pic"></div>
+</header>
+
 <body>
-<p>This is my portfolio</p>
+    <div class="border">
+    </div>
+    <div id="skills">
+    </div>
+    <div id="projects">
+        <h1 class="title">Projects</h1>
+        <a href="https://github.com/hrosenbe1/Tic-Tac-Toe" target="blank">
+            <img src="tic_tac_toe.png" class="project1" alt="Project1">
+        </a>
+        <p class="p1info">I chose the classic game Tic Tac Toe as my first app in Javascript/jQuery. The only library in use is jQuery to speed development time. Technologies used for this app were: HTML5, CSS3, Javascript/jQuery with DOM manipulation, Google Fonts, gliffy.com(wireframe), Trello, Sublime Text3.</p>
+        <a href="https://github.com/hrosenbe1/Symptom-App" target="blank">
+            <img src="symptom_app.png" class="project2" alt="Project2">
+        </a>
+        <p class="p2info">Symptom Log helps users keep track of medical symptoms in one place accurately and securley. I chose to create Symptom Log a my first Ruby on Rails app. The app is password secure to keep all medical information private. I have complete RESTful routes and CRUD functionality. Technologies used for this app were: HTML5, CSS3, Ruby on Rails, PostgreSQL, Sublime Text 3, Trello, Heroku, Paperclip, S3, Amazon Web Services, Bootstrap/SASS, Bootswatch.</p>
+        <a href="https://github.com/hrosenbe1/project3" target="blank">
+            <img src="style_up.png" class="project3" alt="Project3">
+        </a>
+        <p class="p3info">Style.Up is an app that helps users keep track of past and current hairstyles. Technologies used for this app were: MongoDB with Mongoose, ExpressJS, Node.js, Bootstrap, Heroku, Passport, Trello, Git and Github. APIs used: Amazon Web Services with S3 Cloud Storage, Mapbox GL/Direction/Geocoder, MLabs, Sengrid, Yelp.
+        </p>
+    </div>
 </body>
+<footer>
+    <div id="contact">
+        <h1>Contact</h1>
+        <div id="row">
+            <a href="https://www.facebook.com/heather.rosenberg.1293" target="_blank">
+                <img src="Facebook-01.png" class="Ficons" alt="Facebook Icon"></a>
+            <a href="https://twitter.com/hrosenbe1" target="_blank"><img src="Twitter-01.png" class="Ticons" alt="Twitter Icon"></a>
+            <a href="https://www.linkedin.com/in/heather-rosenberg-48b3525?trk=hp-identity-name" target="_blank">
+                <img src="LinkedIn-01.png" class="Licons" alt="LinkedIn Icon"></a>
+            <a href="mailto:h.rosenberg79@gmail.com" target="_blank">
+                <img src="Twitter-02.png" class="Eicon" alt="Email Icon"></a>
+        </div>
+    </div>
+</footer>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="portfolio.js"></script>
+
 </html>
