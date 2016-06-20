@@ -75,7 +75,7 @@ body {
   background-color: black;
   color: white;
   text-align: center;
-  font-family: Cabin;
+  font-family: Raleway;
 }
 
 .contact {
@@ -107,7 +107,7 @@ body {
 
 .title {
   text-align: center;
-  font-family: Cabin;
+  font-family: Raleway;
   margin-bottom: 0px;
   margin-top: 0px;
   padding-top: 45px;
@@ -134,7 +134,7 @@ body {
   margin-right: 120px;
   margin-top: 100px;
   font-size: 18px;
-  font-family: Cabin;
+  font-family: Raleway;
 }
 
 .project2 {
@@ -152,7 +152,7 @@ body {
   margin-right: 120px;
   margin-top: 73px;
   font-size: 18px;
-  font-family: Cabin;
+  font-family: Raleway;
 }
 
 .project3 {
@@ -168,9 +168,9 @@ body {
   width: 500px;
   float: right;
   margin-right: 120px;
-  margin-top: -160px;
+  margin-top: 93px;
   font-size: 18px;
-  font-family: Cabin;
+  font-family: Raleway;
 }
 
 .nav {
@@ -184,7 +184,7 @@ body {
 .nav > ul> li> a {
   text-decoration: none;
   color: black;
-  font-family: Cabin;
+  font-family: Raleway;
   font-size: 20px;
 }
 
