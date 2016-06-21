@@ -419,7 +419,7 @@ a {
   width: 100px;
   display: block;
   float: left;
-  margin-top: 25px;
+  margin-top: -5px;
   position: fixed;
 }
 
@@ -452,4 +452,19 @@ a {
   width: 950px;
   text-align: center;
   margin-left: 150px;
+}
+
+#logos {
+  height: 350px;
+  background-color: #2A2A2A;
+}
+
+.logos {
+  width: 950px;
+  margin-left: 150px;
+}
+
+.hack {
+  height: 225px;
+  width: 225px;
 }

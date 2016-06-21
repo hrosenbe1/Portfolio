@@ -4,6 +4,7 @@ function scrollNav(ev){
   var profileHeight = document.getElementById("profile").clientHeight;
   var skillsHeight = document.getElementById("skills").clientHeight;
   var projectsHeight = document.getElementById("projects").clientHeight;
+  var logosHeight = document.getElementById("logos").clientHeight;
   var contactHeight = document.getElementById("contact").clientHeight;
 
   if(window.pageYOffset > window_size + profileHeight + skillsHeight + projectsHeight) {
@@ -14,6 +15,8 @@ function scrollNav(ev){
     window.history.pushState(stateObj, "skills", "#/skills");
   } else if (window.pageYOffset > window_size) {
     window.history.pushState(stateObj, "profile", "#/profile");
+  } else if (window.pageYOffset > window_size) {
+    window.history.pushState(stateObj, "logos", "#/logo");
   }
 
 };
