@@ -102,7 +102,7 @@ body {
 }
 
 #profile {
-  height: 150px;
+  height: 180px;
   background-color: #BBBBBB;
   color: black;
 }
@@ -113,6 +113,7 @@ body {
   margin-bottom: 0px;
   margin-top: 0px;
   color: black;
+  padding-top: 10px;
 }
 
 #row {
@@ -439,4 +440,16 @@ a {
   margin-bottom: 5px;
   border-radius: 0px;
   box-shadow: 5px 5px 10px;
+}
+
+.list >li {
+  padding: 10px;
+  display: inline-block;
+  font-family: Raleway;
+}
+
+.list {
+  width: 950px;
+  text-align: center;
+  margin-left: 150px;
 }
