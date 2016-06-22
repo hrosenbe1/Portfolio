@@ -95,6 +95,11 @@ body {
   padding: 17px 0px 18px 20px !important;
 }
 
+.logo {
+  padding: 17px 0px 18px 20px !important;
+  width: 75px !important;
+}
+
 #skills {
   height: 250px;
   background-color: #777777;
@@ -457,6 +462,7 @@ a {
 #logos {
   height: 350px;
   background-color: #2A2A2A;
+  padding-bottom: 30px;
 }
 
 .logos {
@@ -464,7 +470,24 @@ a {
   margin-left: 150px;
 }
 
+.logos >li {
+  display: inline-block;
+}
+
 .hack {
   height: 225px;
   width: 225px;
+  padding-right: 50px;
+  padding-left: 40px;
+}
+
+.twinning {
+  height: 225px;
+  width: 225px;
+  padding-right: 40px;
+}
+
+.gpmba {
+  height: 225px;
+  width: 350px;
 }
