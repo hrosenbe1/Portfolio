@@ -156,7 +156,7 @@ body {
 }
 
 #projects {
-  height: 1000px;
+  height: 1300px;
   background-color: #444444;
   color: black;
 }
@@ -406,6 +406,79 @@ a {
     transform:rotateY(180deg)
 }
 .project3 figure:hover figcaption,figure.hover figcaption {
+    -webkit-transform:rotateY(0);
+    -moz-transform:rotateY(0);
+    transform:rotateY(0)
+}
+
+.project4 {
+  height: 250px;
+  width: 475px;
+  box-shadow: 5px 5px 10px black;
+  margin-top: 55px;
+  margin-left: 400px;
+  border-radius: 0px;
+  padding-left: 0px;
+}
+
+.project4 figure {
+    margin:0;
+    padding-left: 0px;
+    position:relative;
+    cursor:pointer;
+    margin-left:-50px
+    height: 250px;
+    width: 475px;
+}
+.project4 figure img {
+    display:block;
+    position:relative;
+    z-index:10;
+    margin:-15px 0
+}
+.project4 figure figcaption {
+    display:block;
+    position:absolute;
+    z-index:5;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.project4 figure p {
+    font-family:'Raleway';
+    color:#BEBEBE;
+    font-size:18px;
+    text-align:left;
+}
+
+.project4 figure figcaption {
+    top:0;
+    left:0;
+    height: 250px;
+    width: 475px;
+    padding:20px 44px;
+    background-color:black;
+    text-align:center;
+    backface-visibility:hidden;
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.project4 figure img {
+    backface-visibility:hidden;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.project4 figure:hover img,figure.hover img {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    transform:rotateY(180deg)
+}
+.project4 figure:hover figcaption,figure.hover figcaption {
     -webkit-transform:rotateY(0);
     -moz-transform:rotateY(0);
     transform:rotateY(0)
