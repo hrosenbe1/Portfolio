@@ -1,9 +1,5 @@
 header {
   background-color: rgba(56, 56, 56, 0.0);
-  border-bottom-style: solid;
-  border-bottom-width: 7px;
-  border-bottom-color: black;
-  border-radius: 0px;
   max-height: 320px;
 }
 
@@ -104,12 +100,20 @@ body {
   height: 250px;
   background-color: #777777;
   color: black;
+  width: 1101px;
+  margin-left: 175px;
 }
 
 #profile {
-  height: 180px;
+  height: 200px;
   background-color: #BBBBBB;
   color: black;
+  width: 1101px;
+  margin-left: 175px;
+  border-top-style: solid;
+  border-top-width: 7px;
+  border-top-color: black;
+  border-radius: 0px;
 }
 
 .prof {
@@ -159,6 +163,8 @@ body {
   height: 1300px;
   background-color: #444444;
   color: black;
+  width: 1101px;
+  margin-left: 175px;
 }
 
 h1, h3, h4 {
@@ -177,7 +183,7 @@ h4 {
   margin-top: 50px;
   border-radius: 0px;
   padding-left: 0px;
-  margin-left: 400px;
+  margin-left: 300px;
 }
 
 .project1 figure {
@@ -261,7 +267,7 @@ a {
   width: 475px;
   box-shadow: 5px 5px 10px black;
   margin-top: 55px;
-  margin-left: 400px;
+  margin-left: 300px;
   border-radius: 0px;
   padding-left: 0px;
 }
@@ -343,7 +349,7 @@ a {
   width: 475px;
   box-shadow: 5px 5px 10px black;
   margin-top: 55px;
-  margin-left: 400px;
+  margin-left: 300px;
   border-radius: 0px;
   padding-left: 0px;
 }
@@ -416,7 +422,7 @@ a {
   width: 475px;
   box-shadow: 5px 5px 10px black;
   margin-top: 55px;
-  margin-left: 400px;
+  margin-left: 300px;
   border-radius: 0px;
   padding-left: 0px;
 }
@@ -529,18 +535,20 @@ a {
 .list {
   width: 950px;
   text-align: center;
-  margin-left: 150px;
+  margin-left: 50px;
 }
 
 #logos {
   height: 350px;
   background-color: #2A2A2A;
   padding-bottom: 30px;
+  width: 1101px;
+  margin-left: 175px;
 }
 
 .logos {
   width: 950px;
-  margin-left: 150px;
+  margin-left: 30px;
 }
 
 .logos >li {
